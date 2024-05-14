@@ -19,8 +19,8 @@ const Footer = () => {
                 <li>Company</li>
                 <li>Products</li>
                 <li>Offices</li>
-                <li> <Link className={`link_${theme}`} to='/about'>About</Link></li>
-                <li> <Link className={`link_${theme}`} to='/contact'>Contact Us</Link></li>
+                <li > <Link id='li' className={`link_${theme}`} to='/about'>About</Link></li>
+                <li > <Link id='li' className={`link_${theme}`} to='/contact'>Contact Us</Link></li>
             </ul>
             <div className="footer-social-icon">
                 <div className="footer-icons-container">
